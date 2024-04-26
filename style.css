@@ -134,18 +134,21 @@ h5{
     margin-top: 25px;
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 720px) {
     .row {
-        flex-direction: column; /* Mengubah tata letak menjadi satu kolom untuk perangkat mobile */
-        gap: 20px; /* Menambahkan jarak antar elemen */
+        flex-direction: column;
+        gap: 20px; /* Menambahkan jarak antara kolom */
     }
 
     .col {
-        flex-basis: 100%; /* Mengisi lebar layar penuh */
+        flex-basis: 100%;
     }
 
     .card {
-        width: calc(100% - 50px); /* Mengisi lebar layar penuh */
-        margin: 0 auto 20px; /* Menghapus margin */
+        width: 100%; /* Mengisi lebar layar penuh */
+        margin: 0 auto 20px; /* Menambahkan margin atas dan bawah, dan membuatnya menjadi posisi tengah */
     }
 }
+
+
+
